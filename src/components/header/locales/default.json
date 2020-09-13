@@ -1,0 +1,17 @@
+{
+  "fr": {
+    "showNavigation": "Voir navigation",
+    "hideNavigation": "Cacher navigation",
+    "home": "accueil",
+    "about": "à propos",
+    "education": "formations",
+    "experience": "expériences",
+    "introduction": {
+      "title":"Je suis un <span>développeur logiciel</span> basé à Manchester.",
+      "part1":"Faites",
+      "part2":"défiler",
+      "part3":"et apprenez-en plus",
+      "part4":"sur moi"
+    }
+  }
+}

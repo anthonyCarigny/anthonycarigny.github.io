@@ -1,0 +1,122 @@
+{
+  "fr": {
+    "education": {
+      "title": "formations",
+      "targetedSkills": "Compétences visées",
+      "diplomas": [
+        {
+          "school": "Hitema",
+          "name": "Expert en étude et management du système d'information",
+          "description": "Durant mes deux premières années à Hitema, je me suis dévoué à l'approfondissement de mes compétences techniques et ait été formé en gestion de projet. Ma dernière année a été concentrée sur le management du système d'information et l'approfondissement de nos compétences en gestion de projets.",
+          "targetedSkills":[
+            "Analyser un besoin, un cahier des charges",
+            "Concevoir des architectures",
+            "Développer des applications",
+            "Assurer la mise en production, recetter l’application (Scénarii de tests)",
+            "Gérer un projet et animer une équipe projet",
+            "Opérer une veille technologique"
+          ],
+          "date": "Juin 2016"
+        },
+        {
+          "school": "Université Paris Descartes",
+          "name":"DUT Informatique",
+          "description": "Le but de la formation est de former des étudiant.e.s maîtrisant non seulement le codage et les savoir-faire professionnels, mais aussi les techniques de communication indispensables pour répondre aux exigences du monde du travail.",
+          "targetedSkills":[
+            "Conception et de développement de logiciels",
+            "Mise en oeuvre de systèmes informatiques",
+            "Mise en place de réseaux",
+            "Assistance technique et de formation correspondant aux besoins des utilisateurs"
+          ],
+          "date": "Juin 2013"
+        }
+      ]
+    },
+    "experience": {
+      "title":"expériences",
+      "jobs":[{
+        "company":"Booking.com",
+        "city":"Manchester",
+        "startDate":"Décembre 2018",
+        "endDate":"Présent",
+        "missions":[{
+          "position":"Développeur logiciel",
+          "team":"Transport Unit Partnerships",
+          "responsabilities":[
+            "Maintenance corrective et évolutive d'une vingtaine de produits fournis aux partenaires affiliés.\n Parmis lesquels les marques blanche du site de rentalcars, une API SOAP, des outils de reporting, etc.",
+            "Refonte de l'API existante",
+            "Création de multiples outils internes"
+          ],
+          "technologies":["Spring boot", "Spring webflux", "webservices", "Javascript", "Git"]
+        }]
+      },
+      {
+        "company":"AXA Banque",
+        "city":"Fontenay-sous-Bois",
+        "startDate":"Octobre 2016",
+        "endDate":"Octobre 2018",
+        "missions":[{
+          "position":"Ingénieur Etudes et développement",
+          "team":"projet 100% compte",
+          "responsabilities":[
+            "Ajout de la possibilité d'ouvrir un compte pour un plus large groupe de personnes via un nouveau site de souscription."
+          ],
+          "technologies":["React", "Spring boot", "webmethods (SoftwareAG)", "SOAP webservices", "Git"]
+        },
+        {
+          "position":"Ingénieur Etudes et développement",
+          "team":"projet de migration SOA",
+          "responsabilities":[
+            "Passage de l'ESB (Enterprise Service Bus) d'IBM vers la solution webmethods de softwareAG.\n Plusieurs membres de l'équipe étant à l'étranger (Russie et Portugal), tous les échanges étaient en anglais."
+          ],
+          "technologies":["Java SE", "Spring MVC", "webmethods (SoftwareAG)", "SOAP webservices", "Git", "SVN"]
+        },
+        {
+          "position":"Développeur",
+          "team":"projet Monétix",
+          "responsabilities":[
+            "Modification de l'outil de relation clientèle en swing afin de proposer une nouvelle carte bancaire premium.",
+            "Ajout de nouvelles fonctionnalités liées à la monétique sur l'outil swing dédié aux conseillers.",
+            "Création et modification des services backend pour les nouvelles opérations liées à la monétique : modification de plafonds, blocage/déblocage de la carte...",
+            "Editions sur le moteur de règles JRULES."
+          ],
+          "technologies":["Java SE", "Java EE", "webmethods (SoftwareAG)", "SOAP webservices", "SVN", "CVS"]
+        }]
+      },
+      {
+        "company":"Crédit Agricole Consumer Finance",
+        "city":"Evry",
+        "startDate":"Septembre 2013",
+        "endDate":"Septembre 2016",
+        "missions":[{
+          "position":"Alternant Ingénieur Etudes et développement",
+          "team":"département Production de documents et Applications d’entreprise",
+          "responsabilities":[
+            "Conception et réalisation d’une application de statistiques sur les envois courrier.",
+            "Maintien en Condition Opérationnel d’applications VBSCRIPT et JAVA.",
+            "Responsable technique de l'outil de gestion des demandes de changements."
+          ],
+          "technologies":["Spring", "Talend", "SVN", "VBScript", "Javascript", "HTML5/CSS"]
+        }]
+      },
+      {
+        "company":"InfoelSA",
+        "city":"Paris",
+        "startDate":"Avril 2013",
+        "endDate":"Juin 2013",
+        "missions":[{
+          "position":"Stagiaire",
+          "team":"",
+          "responsabilities":[
+            "Analyses de base de données",
+            "Développement de transactions PL/SQL pour de nouveaux plug-ins."
+          ],
+          "technologies":["Oracle 11g", "PL/SQL"]
+        }]
+      }]
+    },
+    "skills":{
+      "title":"compétences"
+    }
+  }
+}

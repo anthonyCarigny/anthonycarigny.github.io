@@ -1,0 +1,10 @@
+{
+  "en": {
+    "title": "About Me",
+    "description": {
+      "line1": "As a developer I love clean, efficient and highly maintainable code.",
+      "line2": "I am comfortable with agile development and I highly value teamwork.",
+      "line3": "I consider software testing, code reviews and clear code conventions some of the best ways to improve the quality of software."
+    }
+  }
+}
