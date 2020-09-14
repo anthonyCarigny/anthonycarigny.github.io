@@ -1,27 +1,41 @@
-import React from 'react';
-import { animateScroll as scroll } from "react-scroll";
+import React from 'react'
+import { animateScroll as scroll } from 'react-scroll'
 import './index.css'
-function Footer() {
+function Footer(props) {
+  const socials = props && props.externalLinks && props.externalLinks.socials
   return (
- <footer>
-    <div className="row">
-       <div className="twelve columns">
+    <footer>
+      <div className="row">
+        <div className="twelve columns">
           <ul className="social-links noprint">
-             <li><a href="https://github.com/anthonyCarigny/"><em className="fa fa-github"></em></a></li>
-             <li><a href="https://www.linkedin.com/in/anthony-carigny/"><em className="fa fa-linkedin"></em></a></li>
-             <li><a href="skype:anthony.carigny?chat"><em className="fa fa-skype"></em></a></li>
+            {socials &&
+              socials.map((social, index) => {
+                return (
+                  <li key={index}>
+                    <a href={social.link}>
+                      <em className={social.fontAwesome} />
+                    </a>
+                  </li>
+                )
+              })}
           </ul>
 
           <ul className="copyright">
-             <li>&copy; Copyright 2014 CeeVee</li>
-             <li>Based on a design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank"
-                   rel="noopener noreferrer">Styleshout</a></li>
+            <li>&copy; Copyright 2014 CeeVee</li>
+            <li>
+              Based on a design by{' '}
+              <a href="http://www.styleshout.com/" title="Styleshout" target="_blank" rel="noopener noreferrer">
+                Styleshout
+              </a>
+            </li>
           </ul>
-       </div>
-       <div id="go-top"><em className="icon-up-open" onClick={() => scroll.scrollToTop()}></em>
-       </div>
-    </div>
- </footer>);
+        </div>
+        <div id="go-top">
+          <em className="icon-up-open" onClick={() => scroll.scrollToTop()} />
+        </div>
+      </div>
+    </footer>
+  )
 }
 
-export default Footer;
+export default Footer

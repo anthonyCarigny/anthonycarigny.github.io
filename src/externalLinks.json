@@ -1,0 +1,20 @@
+{
+  "emailAddress": "anthonycarigny@gmail.com",
+  "socials": [
+    {
+      "name": "GitHub",
+      "fontAwesome": "fa fa-github",
+      "link": "https://github.com/anthonyCarigny"
+    },
+    {
+      "name": "LinkedIn",
+      "fontAwesome": "fa fa-linkedin",
+      "link": "https://www.linkedin.com/in/anthony-carigny"
+    },
+    {
+      "name": "Skype",
+      "fontAwesome": "fa fa-skype",
+      "link": "skype:anthony.carigny?chat"
+    }
+  ]
+}
