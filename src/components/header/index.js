@@ -17,7 +17,7 @@ function Header(props) {
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           {t('header.showNavigation')}
         </a>
-        <a className="mobile-btn" href="#nav-wrap" title="Hide navigation">
+        <a className="mobile-btn" href="#nav-wra" title="Hide navigation">
           {t('header.hideNavigation')}
         </a>
         <ul id="nav" className="nav">
