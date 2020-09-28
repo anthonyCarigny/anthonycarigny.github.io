@@ -26,7 +26,7 @@ function About() {
 
             <div className="columns download">
               <p>
-                <a href={t('about.resume')} className="button">
+                <a type="application/pdf" href={t('about.resume')} className="button">
                   <i className="fa fa-download" />
                   {t('about.downloadResume')}
                 </a>
