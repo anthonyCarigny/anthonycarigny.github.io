@@ -36,18 +36,26 @@
       "title": "work",
       "jobs": [
         {
-          "position": "Senior Backend Engineer",
-          "team": "Information Technologies",
-          "responsibilities": [
-            "Redesign of the main website backend",
-            "Creation of a REST API to open to Patrivia's partners"
-          ],
-          "technologies": [
-            "Spring boot",
-            "java 17",
-            "AWS services (Cognito, APIGateway, Lambda, ...)",
-            "Gitlab CI/CD",
-            "Git"
+          "company": "Patrivia",
+          "city": "Paris",
+          "startDate": "January 2020",
+          "endDate": "Present",
+          "missions": [
+            {
+              "position": "Senior Backend Engineer",
+              "team": "Information Technologies",
+              "responsibilities": [
+                "Redesign of the main website backend",
+                "Creation of a REST API to open to Patrivia's partners"
+              ],
+              "technologies": [
+                "Spring boot",
+                "java 17",
+                "AWS services (Cognito, APIGateway, Lambda, ...)",
+                "Gitlab CI/CD",
+                "Git"
+              ]
+            }
           ]
         },
         {
