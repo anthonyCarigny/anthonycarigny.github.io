@@ -48,13 +48,13 @@ function Header(props) {
             </Link>
           </li>
           <li>
-            <Link activeClass="current" to="education" spy={true} smooth={true}>
-              {t('header.education')}
+            <Link activeClass="current" to="work" spy={true} smooth={true}>
+              {t('header.experience')}
             </Link>
           </li>
           <li>
-            <Link activeClass="current" to="work" spy={true} smooth={true}>
-              {t('header.experience')}
+            <Link activeClass="current" to="education" spy={true} smooth={true}>
+              {t('header.education')}
             </Link>
           </li>
         </ul>

@@ -1,122 +1,144 @@
 {
   "en": {
-      "education": {
-        "title": "education",
-        "targetedSkills": "Targeted skills",
-        "diplomas": [
-          {
-            "school": "Hitema",
-            "name": "Expert in study and management of the information system",
-            "description":"During my first and second year at Hitema I was devoted to the confirmation of my technical skills, with an introduction to project management. My last year was focused on IS management and advanced level project management.",
-            "targetedSkills":[
-              "Analyze a need, a specification",
-              "Design architectures",
-              "Develop applications",
-              "Ensure the production, acceptance of the application (test scenarios)",
-              "Manage a project and lead a project team",
-              "Operate a technological watch"
-            ],
-            "date": "June 2016"
-          },
-          {
-            "school": "Paris Descartes University",
-            "name":"DUT (Technical University Diploma)",
-            "description":"The goal of the formation is to train students who master not only coding and professional skills, but also the communication techniques essential to meet the demands of the market.",
-            "targetedSkills":[
-              "Software design and development",
-              "Implementation of computer systems",
-              "Establishment of networks",
-              "Technical assistance and training corresponding to user needs"
-            ],
-            "date": "June 2013"
-          }
-        ]
-      },
-      "experience": {
-        "title":"work",
-        "jobs":[{
-          "company":"Booking.com",
-          "city":"Manchester",
-          "startDate":"December 2018",
-          "endDate":"Present",
-          "missions":[{
-            "position":"Software developer",
-            "team":"Transport Unit Partnerships",
-            "responsabilities":[
-              "Progressive and corrective maintenance of 20+ products provided to partners.\n Amongst which are the whitelabel versions of the rentalcars website, a SOAP-like API, reporting tools, etc.",
-              "Replatforming of the existing API.",
-              "Creation of various internal tool for the team."
-            ],
-            "technologies":["Spring boot", "Spring webflux", "webservices", "Javascript", "Git"]
-          }]
+    "education": {
+      "title": "education",
+      "targetedSkills": "Targeted skills",
+      "diplomas": [
+        {
+          "school": "Hitema",
+          "name": "Expert in study and management of the information system",
+          "description": "During my first and second year at Hitema I was devoted to the confirmation of my technical skills, with an introduction to project management. My last year was focused on IS management and advanced level project management.",
+          "targetedSkills": [
+            "Analyze a need, a specification",
+            "Design architectures",
+            "Develop applications",
+            "Ensure the production, acceptance of the application (test scenarios)",
+            "Manage a project and lead a project team",
+            "Operate a technological watch"
+          ],
+          "date": "June 2016"
         },
         {
-          "company":"AXA Banque",
-          "city":"Paris",
-          "startDate":"October 2016",
-          "endDate":"October 2018",
-          "missions":[{
-            "position":"Software engineer",
-            "team":"100% account project",
-            "responsabilities":[
-              "Added possibility to open account for larger groups of people on the subscription website."
-            ],
-            "technologies":["React", "Spring boot", "webmethods (SoftwareAG)", "SOAP webservices", "Git"]
-          },
-          {
-            "position":"Software engineer",
-            "team":"EIP migration project",
-            "responsabilities":[
-              "Replatforming of ESB services to SoftwareAG's webmethods. Many team members being abroad(Russia and Portugal), all discussions were in English"
-            ],
-            "technologies":["Java SE", "Spring MVC", "webmethods (SoftwareAG)", "SOAP webservices", "Git", "SVN"]
-          },
-          {
-            "position":"Software developer",
-            "team":"EIP migration project",
-            "responsabilities":[
-              "Modification of the customer relations tool in swing in order to propose a new premium credit card.",
-              "Added new features related to electronic banking on the tool dedicated to advisors.",
-              "Creation / Modification of backend services for new operations related to electronic banking: modification of payment limit, blocking / unblocking of the card ...",
-              "Rules edition on the JRULES rule engine."
-            ],
-            "technologies":["Java SE", "Java EE", "webmethods (SoftwareAG)", "SOAP webservices", "SVN", "CVS"]
-          }]
+          "school": "Paris Descartes University",
+          "name": "DUT (Technical University Diploma)",
+          "description": "The goal of the formation is to train students who master not only coding and professional skills, but also the communication techniques essential to meet the demands of the market.",
+          "targetedSkills": [
+            "Software design and development",
+            "Implementation of computer systems",
+            "Establishment of networks",
+            "Technical assistance and training corresponding to user needs"
+          ],
+          "date": "June 2013"
+        }
+      ]
+    },
+    "experience": {
+      "title": "work",
+      "jobs": [
+        {
+          "position": "Senior Backend Engineer",
+          "team": "Information Technologies",
+          "responsibilities": [
+            "Redesign of the main website backend",
+            "Creation of a REST API to open to Patrivia's partners"
+          ],
+          "technologies": [
+            "Spring boot",
+            "java 17",
+            "AWS services (Cognito, APIGateway, Lambda, ...)",
+            "Gitlab CI/CD",
+            "Git"
+          ]
         },
         {
-          "company":"Crédit Agricole Consumer Finance",
-          "city":"Evry",
-          "startDate":"September 2013",
-          "endDate":"September 2016",
-          "missions":[{
-            "position":"Software engineer",
-            "team":"Documents Production and Enterprise Applications",
-            "responsabilities":[
-              "Conception and development of a statistics application in J2EE with Spring.",
-              "Maintenance in Operational Condition of VBSCRIPT and JAVA applications.",
-              "Technical Manager of the Change Request Tool."
-            ],
-            "technologies":["Spring", "Talend", "SVN", "VBScript", "Javascript", "HTML5/CSS"]
-          }]
+          "company": "Booking.com",
+          "city": "Manchester",
+          "startDate": "December 2018",
+          "endDate": "Present",
+          "missions": [
+            {
+              "position": "Software developer",
+              "team": "Transport Unit Partnerships",
+              "responsibilities": [
+                "Progressive and corrective maintenance of 20+ products provided to partners.\n Amongst which are the whitelabel versions of the rentalcars website, a SOAP-like API, reporting tools, etc.",
+                "Replatforming of the existing API.",
+                "Creation of various internal tool for the team."
+              ],
+              "technologies": ["Spring boot", "Spring webflux", "webservices", "Javascript", "Git"]
+            }
+          ]
         },
         {
-          "company":"InfoelSA",
-          "city":"Paris",
-          "startDate":"April 2013",
-          "endDate":"June 2013",
-          "missions":[{
-            "position":"Intern",
-            "team":"",
-            "responsabilities":[
-              "Database analysis.",
-              "Plugin addition to main software."
-            ],
-            "technologies":["Oracle 11g", "PL/SQL"]
-          }]
-        }]
-      },
-      "skills":{
-        "title":"skills"
-      }
+          "company": "AXA Banque",
+          "city": "Paris",
+          "startDate": "October 2016",
+          "endDate": "October 2018",
+          "missions": [
+            {
+              "position": "Software engineer",
+              "team": "100% account project",
+              "responsibilities": [
+                "Added possibility to open account for larger groups of people on the subscription website."
+              ],
+              "technologies": ["React", "Spring boot", "webmethods (SoftwareAG)", "SOAP webservices", "Git"]
+            },
+            {
+              "position": "Software engineer",
+              "team": "EIP migration project",
+              "responsibilities": [
+                "Replatforming of ESB services to SoftwareAG's webmethods. Many team members being abroad(Russia and Portugal), all discussions were in English"
+              ],
+              "technologies": ["Java SE", "Spring MVC", "webmethods (SoftwareAG)", "SOAP webservices", "Git", "SVN"]
+            },
+            {
+              "position": "Software developer",
+              "team": "EIP migration project",
+              "responsibilities": [
+                "Modification of the customer relations tool in swing in order to propose a new premium credit card.",
+                "Added new features related to electronic banking on the tool dedicated to advisors.",
+                "Creation / Modification of backend services for new operations related to electronic banking: modification of payment limit, blocking / unblocking of the card ...",
+                "Rules edition on the JRULES rule engine."
+              ],
+              "technologies": ["Java SE", "Java EE", "webmethods (SoftwareAG)", "SOAP webservices", "SVN", "CVS"]
+            }
+          ]
+        },
+        {
+          "company": "Crédit Agricole Consumer Finance",
+          "city": "Evry",
+          "startDate": "September 2013",
+          "endDate": "September 2016",
+          "missions": [
+            {
+              "position": "Software engineer",
+              "team": "Documents Production and Enterprise Applications",
+              "responsibilities": [
+                "Conception and development of a statistics application in J2EE with Spring.",
+                "Maintenance in Operational Condition of VBSCRIPT and JAVA applications.",
+                "Technical Manager of the Change Request Tool."
+              ],
+              "technologies": ["Spring", "Talend", "SVN", "VBScript", "Javascript", "HTML5/CSS"]
+            }
+          ]
+        },
+        {
+          "company": "InfoelSA",
+          "city": "Paris",
+          "startDate": "April 2013",
+          "endDate": "June 2013",
+          "missions": [
+            {
+              "position": "Intern",
+              "team": "",
+              "responsibilities": ["Database analysis.", "Plugin addition to main software."],
+              "technologies": ["Oracle 11g", "PL/SQL"]
+            }
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "title": "skills"
+    }
   }
 }

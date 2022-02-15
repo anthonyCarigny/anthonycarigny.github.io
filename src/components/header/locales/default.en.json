@@ -7,11 +7,11 @@
     "education": "education",
     "experience": "experience",
     "introduction": {
-      "title":"I am a <span>software developer</span> in Manchester",
-      "part1":"Let's",
-      "part2":"start scrolling",
-      "part3":" and learn more",
-      "part4":"about me"
+      "title": "I am a <span>software developer</span> in Paris area",
+      "part1": "Let's",
+      "part2": "start scrolling",
+      "part3": " and learn more",
+      "part4": "about me"
     }
   }
 }

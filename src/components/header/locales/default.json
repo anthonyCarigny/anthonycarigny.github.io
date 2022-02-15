@@ -7,11 +7,11 @@
     "education": "formations",
     "experience": "expériences",
     "introduction": {
-      "title":"Je suis un <span>développeur logiciel</span> basé à Manchester.",
-      "part1":"Faites",
-      "part2":"défiler",
-      "part3":"et apprenez-en plus",
-      "part4":"sur moi"
+      "title": "Je suis un <span>développeur logiciel</span> basé en région parisienne.",
+      "part1": "Faites",
+      "part2": "défiler",
+      "part3": "et apprenez-en plus",
+      "part4": "sur moi"
     }
   }
 }
