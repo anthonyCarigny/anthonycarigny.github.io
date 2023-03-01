@@ -17,7 +17,8 @@ function Header(props) {
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           {t('header.showNavigation')}
         </a>
-        <a className="mobile-btn" href="#nav-wrap" title="Hide navigation">
+        {/* eslint-disable-next-line */}
+        <a className="mobile-btn" href="#" title="Hide navigation">
           {t('header.hideNavigation')}
         </a>
         <ul id="nav" className="nav">

@@ -30,8 +30,8 @@ function Footer(props) {
             </li>
           </ul>
         </div>
-        <div id="go-top">
-          <em className="icon-up-open" onClick={() => scroll.scrollToTop()} />
+        <div id="go-top" onClick={() => scroll.scrollToTop()}>
+          <em className="icon-up-open" />
         </div>
       </div>
     </footer>

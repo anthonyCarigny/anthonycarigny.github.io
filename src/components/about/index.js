@@ -18,7 +18,7 @@ function About() {
               <h2>{t('about.contactDetails')}</h2>
               <address>
                 <span>
-                  <a href="mailto:{props.aboutData.emailAdress}">{aboutData.emailAdress}</a>
+                  <a href={`mailto:${aboutData.emailAdress}`}>{aboutData.emailAdress}</a>
                 </span>
                 <br />
               </address>
