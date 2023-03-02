@@ -49,11 +49,11 @@ jQuery(document).ready(function ($) {
    ------------------------------------------------------*/
 
   $(window).on('scroll', function () {
-    var h = $('header').height()
-    var y = $(window).scrollTop()
-    var nav = $('#nav-wrap')
+    let h = $('header').height()
+    let y = $(window).scrollTop()
+    let nav = $('#nav-wrap')
 
-    if (y > h * 0.2 && y < h && $(window).outerWidth() > 768) {
+    if (y > h * 0.2) {
       nav.fadeOut('fast')
     } else {
       if (y < h * 0.2) {
