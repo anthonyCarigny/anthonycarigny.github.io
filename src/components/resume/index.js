@@ -31,7 +31,7 @@ function Resume() {
                       return (
                         <React.Fragment key={jobIndex}>
                           <p className="info">
-                            {mission.position} - {mission.team}
+                            {mission.position} {mission.team && '-'} {mission.team}
                           </p>
                           <ul>
                             {mission.responsibilities &&
